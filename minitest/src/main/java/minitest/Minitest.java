@@ -45,7 +45,7 @@ public class Minitest {
 	public static void cargarFichero(String data) {
 		try {
 			//Declarar la ruta y el nombre de archivo con la extension del mismo
-		String ruta = ".\\SALIDA\\archivo.txt";
+		String ruta = ".\\SALIDA\\recomendación_hoy.txt";
 		//Inicializo la clase File que me permite crear el archivo.
 		File archivo = new File(ruta);
 		if(! archivo.exists())
